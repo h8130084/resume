@@ -1,38 +1,67 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
-/*------------------------------------colours*/
-.bg-color-name-title
-{
+
+/*--------------------------------------------Colors*/
+
+.bg-color-name-title {
     background-color: #676767;
 }
 
-.bg-color-three-reasons{
-   background-color: #ffffff;
+.bg-color-three-reasons {
+    background-color: #ffffff;
 }
 
-.ul-menu-color-home {
-    background-color: #e67e22;
-}
-
-.ul-menu-color-resume {
-    background-color: #9b59b6;
-}
-
-.ul-menu-color-contact {
-    background-color: #3498db;
-}
-
-.ul-menu-color-download {
-    background-color: #525252;
-}
-
-.bg-colour-personal-info{
+.bg-color-personal-info {
     background-color: #f4f4f4;
 }
 
-.bg-colour-work-history{
+.bg-color-skills {
+    background-color: #ffffff;
+}
+
+.bg-color-work-history {
     background-color: #9b59b6;
 }
+
+.bg-color-contact {
+    background-color: #ffffff;
+}
+
+.bg-color-conferences {
+    background-color: #f4f4f4;
+}
+
+.bg-color-groups {
+    background-color: #ffffff;
+}
+
+.ui-menu-color-home {
+    background-color: #e67e22;
+}
+
+.ui-menu-color-resume {
+    background-color: #9b59b6;
+}
+
+.ui-menu-color-contact {
+    background-color: #3498db;
+}
+
+.ui-menu-color-download {
+    background-color: #d9a81d;
+}
+
+
+.ui-menu-color-github {
+    background-color: #1c4a6c;
+}
+
+.ui-menu-color-interests {
+    background-color: #e74c3c;
+}
+
+
+
 
 body {
     font-family: Roboto, sans-serif;
@@ -40,22 +69,23 @@ body {
     background-color: #525252;
     color: #555555;
 }
-/*---------------special paddings/margins/texts*/
+
+
+/*--------------------------------------------Special Paddings/Margins/Text*/
 
 h1,
 h2,
 h3,
 h4 {
-    margin:0;
+    margin: 0;
 }
 
 .uppercase {
     text-transform: uppercase;
 }
 
-
 .general-sub {
-    font-family: "Exo" ,sans-serif;
+    font-family: "Exo", sans-serif;
     font-weight: 300;
     color: #fafafa;
 }
@@ -64,37 +94,31 @@ h4 {
     display: inline-block;
 }
 
+
 .row-table {
     display: table;
-    
 }
+
 .history-heading,
 .section-heading {
     font-family: "Exo", sans-serif;
     font-weight: 300;
     margin-top: 25px;
     margin-bottom: 40px;
-    
 }
 
 
-    
-}
-
-/*---------------heading*/
+/*--------------------------------------------Heading*/
 
 header {
     margin: 0;
 }
-.heading{
+
+.heading {
     margin-left: 50px;
-    
 }
 
-
-
-
-.logo { 
+.logo {
     background: url("../images/rosie.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -103,37 +127,33 @@ header {
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
-    
 }
 
 .name {
-    font-family: "exo", sans-serif;
+    font-family: "Exo", sans-serif;
     font-weight: 100;
     font-size: 46px;
     margin-top: 50px;
     color: #ffffff;
 }
 
-
 .title {
-    
-font-family: "roboto", sans-serif;
-font-weight: 200;
-font-size: 28px;
-margin-top: 20px;
-margin-bottom: 90px;
-color: #ffffff;
-
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 90px;
+    color: #ffffff;
 }
 
-#nav{
-    margin:0;
+#nav {
+    margin: 0;
 }
 
-#nav li{
+#nav li {
     padding: 0;
-    
 }
+
 .menuitem {
     height: 120px;
     text-align: center;
@@ -147,15 +167,15 @@ color: #ffffff;
     height: 120px;
 }
 
-.menuitem a i{
+
+.menuitem a i {
     padding-top: 22px;
     display: block;
     color: #fafafa;
     font-size: 26px;
-    
 }
 
-.menuitem span{
+.menuitem span {
     display: block;
     width: 100%;
     padding-top: 5px;
@@ -164,41 +184,39 @@ color: #ffffff;
     font-size: 14px;
     font-weight: 300;
     letter-spacing: 2px;
-    
 }
 
-/*---------------hover.css*/
 
-.hvr-sweep-to-bottom:before{
-    background: rgba(0,0,0, 0.2);
+/*--------------------------------------------Hover.css*/
+
+.hvr-sweep-to-bottom:before {
+    background: rgba(0, 0, 0, 0.2);
     height: 120px;
 }
 
-/*--------------footer*/
 
-footer{
+/*--------------------------------------------Footer*/
+
+footer {
     background-color: #525252;
     color: #fafafa;
     min-height: 120px;
     margin: 0;
-    
 }
 
-footer .cv-pdf i{
+footer .cv-pdf i {
     color: #fafafa;
     text-align: center;
     font-size: 18px;
     padding-left: 5px;
-    
 }
 
-footer .cv-pdf i:hover{
+footer .cv-pdf i:hover {
     color: #e84610;
     transition: all 0.35s ease-in-out;
-     -moz-transition: all 0.35s ease-in-out;
-      -webkit-transition: all 0.35s ease-in-out;
-      -o-transition: all 0.35s ease-in-out;
-    
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
 }
 
 .social-links {
@@ -216,43 +234,40 @@ footer .cv-pdf i:hover{
     color: #fafafa;
     background: #8f8f8f;
     transition: all 0.35s ease-in-out;
-     -moz-transition: all 0.35s ease-in-out;
-      -webkit-transition: all 0.35s ease-in-out;
-      -o-transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
 }
 
-.social-links li a i:hover{
-   background: #e84610;
-    
+.social-links li a i:hover {
+    background: #e84610;
 }
 
-#footer-details{
+#footer-details {
     margin: 20px;
 }
 
+/*--------------------------------------------Three Reasons*/
 
-/*------------------------------------three resaons*/
-
-.three-reasons-icon{
+.three-reasons-icon {
     font-size: 26px;
     color: #e67e22;
-    
 }
-.three-reasons-heading{
+
+.three-reasons-heading {
     margin-bottom: 15px;
-    
 }
 
-/*------------------------------------ personal info*/
+/*--------------------------------------------Personal Info*/
 
-.personal-info-item{
+.personal-info-item {
     margin-bottom: 20px;
     display: block;
     clear: both;
 }
 
-.personal-info-item .key
-.personal-info-item .value{
+.personal-info-item .key,
+.personal-info-item .value {
     padding-right: 8px;
 }
 
@@ -261,7 +276,7 @@ footer .cv-pdf i:hover{
     margin: 0;
 }
 
-.personal-info-item .key |{
+.personal-info-item .key {
     display: inline-block;
     width: 30%;
     margin-right: 21px;
@@ -269,7 +284,7 @@ footer .cv-pdf i:hover{
     vertical-align: top;
 }
 
-.personal-info-item .key p{
+.personal-info-item .key p {
     font-weight: 700;
 }
 
@@ -279,37 +294,35 @@ footer .cv-pdf i:hover{
     width: 60%;
 }
 
-
-/*------------------------------------ skills*/
+/*--------------------------------------------Skills*/
 
 .progress {
     position: relative;
     height: 25px;
-    
 }
 
 .progress-type {
     position: absolute;
     left: 0px;
     font-weight: 400;
-    padding:  3px 30px 2px 10px;
+    padding: 3px 30px 2px 10px;
     color: #fafafa;
-    background-color: rgba(25,25,25,0.2);
+    background-color: rgba(25, 25, 25, 0.2);
 }
 
-.progress-section{
+
+.progress-section {
     margin: 40px 20px;
-    
 }
 
-/*------------------------------------ work history*/
+
+/*--------------------------------------------Work History*/
 
 .timeline-item {
     padding: 4em 2em 0em 2em;
     position: relative;
     color: #fafafa;
-    border-left:  1px solid;
-
+    border-left: 1px solid;
 }
 
 .timeline-item p {
@@ -318,7 +331,7 @@ footer .cv-pdf i:hover{
 }
 
 .timeline-item::before {
-    content: attr(dates);
+    content: attr(data-dates);
     position: absolute;
     left: 2.5em;
     top: 3em;
@@ -342,19 +355,56 @@ footer .cv-pdf i:hover{
     background: #fafafa;
 }
 
-.history-heading{
+.history-heading {
     color: #fafafa;
     margin-bottom: 50px;
 }
 
-.history-items{
+.history-items {
     margin-bottom: 30px;
 }
-/*------------------------------------  media queries*/
+
+/*--------------------------------------------Contact*/
+
+.contact-heading {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background-color: #e84610;
+    color: #fafafa;
+}
+
+/*--------------------------------------------Map*/
+div#map {
+    min-height: 360px;
+}
+
+/*--------------------------------------------Media Queries*/
 
 @media(min-width: 992px) {
     .section-column {
-    padding: 0 30px 30px;
-    float: none;
-    display: table-cell;
+        padding: 0 30px 30px;
+        float: none;
+        display: table-cell;
+    }
+
+    .center-form {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%;
+    }
 }
